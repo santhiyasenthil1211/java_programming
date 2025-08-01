@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        int d=(a*b)-(a*c)-100;
+        System.out.println("Number of copies sold:"+a);
+        System.out.println("Cost of each copy:"+b);
+        System.out.println("Cost spent by agency on each newspaper:"+c);
+        System.out.println("The profit obtained is Rs."+d+".00");
+
+        
+    }
+}
