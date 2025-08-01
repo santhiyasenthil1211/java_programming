@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        String a=s.nextLine();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        System.out.println("Name of the Student:"+a);
+        if(b==1 && c>70){
+            System.out.println(a+" is Eligible for Placement");
+        
+        }
+        else if(b==1|| b==2 && c>=75){
+            System.out.println(a + " is Eligible for Placement");
+            
+        }
+        else{
+            System.out.println(a + " is Not Eligible for Placement");
+        }
+
+        
+    }
+}
+    
