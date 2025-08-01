@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        switch(b){
+            case 1:
+                int saving=s.nextInt();
+                System.out.println(a+saving);
+                break;
+            case 2:
+                int withdraw=s.nextInt();
+                if(a<withdraw){
+                    System.out.println("Insufficient Balance");
+                }
+                else{
+                    System.out.println(a-withdraw);
+                }
+                break;
+            default:
+                System.out.println("Invalid Input");
+        }
+        
+    }
+}
