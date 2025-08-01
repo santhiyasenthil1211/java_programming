@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a = s.nextInt();
+        int b = s.nextInt();
+        int c = s.nextInt();
+        int d = s.nextInt();
+        int e = s.nextInt();
+        double area=((1/2)*a*b);
+        double f=c+d+e;
+        System.out.println("Area of Triangle is "+ area);
+        System.out.println("Perimeter of Triangle is "+ f);
+    }
+}
